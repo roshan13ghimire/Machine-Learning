@@ -36,23 +36,7 @@ dfcolumns = pd.DataFrame(X.columns)
 featureScores = pd.concat([dfcolumns,dfscores],axis=1)
 featureScores.columns = ['Specs', 'Score'] #naming the data frames columns
 print(featureScores.nlargest(10,'Score')) #print 10 best features
-import pandas as pd
-import numpy as np
-data = pd.read_csv("train.csv")
-X = data.iloc[:,0:20]
-Y = data.iloc[:,-1]
-from sklearn.feature_selection import mutual_info_classif
-import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
-importances = mutual_info_classif(X,Y)
-print(importances)
-feat_importances = pd.Series(importances,data.columns[0:len(data.columns)-1])
-feat_importances.plot(kind='barh',color='teal')
-plt.show()
-import seaborn as sns
-cor=data.corr()
-plt.figure(figsize=(10,6))
-sns.heatmap(cor,annot=True)
+
 
 
 # In[2 a.]:k fold
