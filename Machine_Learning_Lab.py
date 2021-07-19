@@ -331,7 +331,7 @@ centers = kmeans.cluster_centers_
 plt.scatter(centers[:, 0], centers[:, 1], c='black', s=200, alpha=0.5);
 
 
-# In[6]: vector
+# In[6]: Vector Addition
 
 
 import numpy as NP
@@ -340,6 +340,10 @@ B = [5, -4, 8]
 print("The input arrays are :\n","A:",A ,"\n","B:",B)
 Res= NP.add(A,B)
 print("After addition the resulting array is :",Res)
+
+
+
+
 
 
 
