@@ -38,7 +38,7 @@ print(featureScores.nlargest(10,'Score')) #print 10 best features
 
 
 
-# In[2 a.]:k fold
+# In[2 a.]:k-Fold
 
 
 from numpy import array
