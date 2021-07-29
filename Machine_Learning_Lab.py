@@ -330,7 +330,7 @@ centers = kmeans.cluster_centers_
 plt.scatter(centers[:, 0], centers[:, 1], c='black', s=200, alpha=0.5);
 
 
-# In[6]: Vector Addition
+# In[6]: Vector addition
 
 
 import numpy as NP
