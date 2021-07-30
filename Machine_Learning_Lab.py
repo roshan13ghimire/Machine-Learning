@@ -1,6 +1,6 @@
 
 
-# In[1 a.]:missiing values
+# In[1 a.]:Missiing values
 
 
 import pandas as pd
