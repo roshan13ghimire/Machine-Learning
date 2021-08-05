@@ -11,7 +11,7 @@ df.dropna()
 x
 
 
-# In[1 b.]:Selecting meaningful features
+# In[1 b.]:Selecting Meaningful features
 
 
 from sklearn import preprocessing
