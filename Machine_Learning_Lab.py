@@ -134,7 +134,7 @@ plt.legend(loc="best")
 plt.show()
 
 
-# In[2 b.]:grod search
+# In[2 b.]:Grod search
 
 
 #grid search
