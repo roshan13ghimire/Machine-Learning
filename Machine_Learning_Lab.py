@@ -168,7 +168,7 @@ best_result = gd_sr.best_score_
 print(best_result)
 
 
-# In[3]:Pca
+# In[3]:PCA
 
 
 import numpy as np
