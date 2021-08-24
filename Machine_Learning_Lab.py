@@ -218,7 +218,7 @@ plt.title('LDA of IRIS dataset')
 plt.show()
 
 
-# In[4]:data clustering
+# In[4]:Data clustering
 
 
 from sklearn import datasets
